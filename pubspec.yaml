@@ -1,0 +1,83 @@
+name: tajweed_and_quran
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using flutter pub publish. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running flutter pub upgrade --major-versions. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run flutter pub outdated.
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.37
+  audio_session: ^0.1.13
+  string_scanner: ^1.2.0
+
+  flutter_test:
+    sdk: flutter
+
+  google_fonts: ^6.2.1
+  provider: ^6.0.5
+
+  #  audioplayers: ^6.1.0
+
+  cupertino_icons: ^1.0.6
+
+  flutter_lints: ^5.0.0
+
+  firebase_core: ^3.13.0
+  cloud_firestore: ^5.6.7
+
+  path_provider: ^2.0.11  # For reading files
+  xml: ^6.1.0  # For creating XML structure
+  firebase_auth: ^5.5.3
+
+#  tflite_flutter: ^0.9.0
+#  tflite_flutter_helper: ^0.3.1
+
+  firebase_storage: ^12.4.5
+  speech_to_text: ^6.3.0  # For speech recognition
+  flutter_tts: ^3.6.3
+  string_similarity: ^2.0.0
+  record: ^4.4.4
+  flutter_sound: ^9.2.13  # For audio recording
+  http: ^1.4.0           # For API calls
+  file_picker: ^5.3.3     # For file handling
+  permission_handler: ^11.3.0
+
+
+flutter:
+  assets:
+    - assets/Images/
+    - assets/audios/
+#    - assets/models/tajweed_classifier.tflite
+
+
+  uses-material-design: true
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

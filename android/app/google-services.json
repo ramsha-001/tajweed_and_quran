@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769869240816",
+    "project_id": "quran-with-tajweed-2212e",
+    "storage_bucket": "quran-with-tajweed-2212e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769869240816:android:297ab5df622cea71306535",
+        "android_client_info": {
+          "package_name": "com.example.tajweed_and_quran"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjKKQVr2AvEq8oyohGJDllz17FfVyN3wU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "quran-with-tajweed-2212e",
+          "appId": "1:769869240816:android:297ab5df622cea71306535",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "quran-with-tajweed-2212e",
+          "configurations": {
+            "android": "1:769869240816:android:297ab5df622cea71306535",
+            "ios": "1:769869240816:ios:ea197ff327836a53306535",
+            "macos": "1:769869240816:ios:ea197ff327836a53306535",
+            "web": "1:769869240816:web:76d85d1e804b6585306535",
+            "windows": "1:769869240816:web:2f1af83e5dc63864306535"
+          }
+        }
+      }
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  }
+}
