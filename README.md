@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-by:
+by:\
 Ramsha Kokab (Fa21-bcs-010), \
 Alveena Ayesha (Fa21-bcs-014)
 
