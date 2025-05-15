@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+by:
+Ramsha Kokab (Fa21-bcs-010)
+Alveena Ayesha (Fa21-bcs-014)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
